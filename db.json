@@ -1,10 +1,10 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server1", "author": "bob" },
-    { "id": 2, "title": "json-server2", "author": "sarah" },
-    { "id": 3, "title": "json-server3", "author": "john" },
-    { "id": 4, "title": "json-server4", "author": "anna" },
-    { "id": 5, "title": "json-server5", "author": "chirimiri" }
+    { "id": 1, "title": "Hello World", "author": "bob" },
+    { "id": 2, "title": "Python is D Best", "author": "sarah" },
+    { "id": 3, "title": "Show me the data", "author": "john" },
+    { "id": 4, "title": "Hello Friend!", "author": "anna" },
+    { "id": 5, "title": "Do something", "author": "hana" }
   ],
   "comments": [
     { "id": 1, "body": "some comment 1" },
@@ -16,12 +16,13 @@
     { "id": 7, "body": "some comment 7" },
     { "id": 8, "body": "some comment 8" },
     { "id": 9, "body": "some comment 9" },
-    { "id": 10, "body": "some comment 10" },
-    { "id": 11, "body": "some comment 11" },
-    { "id": 12, "body": "some comment 12" },
-    { "id": 13, "body": "some comment 13" },
-    { "id": 14, "body": "some comment 14" },
-    { "id": 15, "body": "some comment 15" }
+    { "id": 10, "body": "some comment 10" }
   ],
-  "profile": { "name": "typicode" }
+  "profiles": [
+    { "id": 1, "firstName": "Bob", "lastName": "Rogers" },
+    { "id": 2, "firstName": "Marco", "lastName": "Gallardi" },
+    { "id": 3, "firstName": "John", "lastName": "Rose" },
+    { "id": 4, "firstName": "Sarah", "lastName": "Tomasz" },
+    { "id": 5, "firstName": "Anna", "lastName": "Kowalowski" }
+  ]
 }
