@@ -71,9 +71,7 @@ Once done **Clone** that repo to your local machine by using the link from your 
 
 
 
-`db.json` file being loaded as a mock database.
-
-Once run, `json-server` loads the provided file `db.json`, and uses the first level property names of the object as the server endpoints.
+Once run, `json-server` loads the provided file `db.json` and uses it as the database/storage,  using the first level property names of the `db.json` object as the actual server endpoints.
 
 
 
