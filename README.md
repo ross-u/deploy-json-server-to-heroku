@@ -139,7 +139,7 @@ Only rule that should be observed is that file must be named `db.json` and be pl
 
 
 
-##### Sign up for Heroku
+#### Sign up for Heroku
 
 If you don't have a Heroku account you should [Sign up / create Heroku account](https://signup.heroku.com/). 
 
@@ -147,7 +147,7 @@ If you don't have a Heroku account you should [Sign up / create Heroku account](
 
 <br>
 
-##### Install the Heroku CLI
+#### Install the Heroku CLI
 
 Check if you have the Heroku CLI installed.
 
@@ -168,7 +168,7 @@ heroku/7.0.0 (darwin-x64) node-v8.0.0
 
 
 
-##### Login to Heroku
+#### Login to Heroku
 
 After you ensure that Heroku CLI is installed, run the `heroku login` command. 
 
@@ -184,7 +184,7 @@ heroku login
 
 
 
-##### Create a new Heroku app
+#### Create a new Heroku app
 
 Before running the below commands, using the terminal navigate to the root directory of the cloned server project.
 
@@ -216,7 +216,7 @@ git remote -v
 
 
 
-##### Push to Heroku
+#### Push to Heroku
 
 This is the final step, which pushes our local code to Heroku dyne which will instantiate the new server and run it automatically.
 
@@ -232,7 +232,7 @@ git push heroku master
 
 
 
-##### Done! ✅ 
+#### Done! ✅ 
 
 Once done you will be able to make the HTTP requests using the URL of your Heroku app and the endpoints created from the `db.json`. 
 
