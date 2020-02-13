@@ -19,7 +19,9 @@ One of such tools is a `npm` package called [`json-server`](https://www.npmjs.co
 
 <br>
 
-## Getting started
+
+
+## Getting Started
 
 
 
@@ -31,9 +33,9 @@ This repository includes the complete setup needed for deploying a `json-server`
 
 Steps:
 
-1. [Fork and Clone the repository](#fork-and-clone)
-2. [Add the custom `db.json` file](#add-custom-db-json)
-3. [Deploy to Heroku](#deploy-to-heroku)
+1. [Fork and Clone the repository.](#fork-and-clone)
+2. [Add the custom `db.json` file.](#add-custom-db-json)
+3. [Deploy `json-server` app to Heroku.](#deploy-to-heroku)
 
 
 
@@ -184,9 +186,54 @@ heroku login
 
 ##### Create a new Heroku app
 
-To create a new Heroku app/project run the command (in order for your app to have a custom name, change the `name-of-your-server-app` part to include name that you want):
+Before running the below commands, using the terminal navigate to the root directory of the cloned server project.
+
+To create a new Heroku app/project run the command (in order for your app to have a custom name, change the `name-of-your-server-app` part to include name that you want) from the root directory of the cloned project:
 
 ```bash
 heroku create name-of-your-server-app
 ```
 
+
+
+<br>
+
+
+
+Running the above command will create the new Heroku/app project and also add new `git remote` to the current project, pointing to Heroku which we will use to push the code from our machine to Heroku.
+
+To check the newly added `git remote` you run the command:
+
+```bash
+git remote -v
+```
+
+
+
+
+
+<br>
+
+
+
+##### Push to Heroku
+
+This is the final step, which pushes our local code to Heroku dyne which will instantiate the new server and run it automatically.
+
+Commit all the updates and then push to heroku by running the command:
+
+```bash
+git push heroku master
+```
+
+
+
+<br>
+
+
+
+##### Done! ✅ 
+
+Once done you will be able to make the HTTP requests using the URL of your Heroku app and the endpoints created from the `db.json`. 
+
+Visit the https://dashboard.heroku.com/apps to see the newly created (and running) `json-server` app. 😊 
