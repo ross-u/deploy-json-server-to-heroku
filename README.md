@@ -45,7 +45,7 @@ Steps:
 
 <a name="fork-and-clone"></a>
 
-###  Fork and clone the repository 
+##  Fork and clone the repository 
 
 
 
@@ -61,11 +61,15 @@ Once done **Clone** that repo to your local machine by using the link from your 
 
 <a name="add-custom-db-json"></a>
 
-### Add the custom `db.json` file
+## Add the custom `db.json` file
+
+<br>
 
 
 
 #### `db.json` file
+
+
 
 `db.json` file being loaded as a mock database.
 
@@ -135,7 +139,7 @@ Only rule that should be observed is that file must be named `db.json` and be pl
 
 <a name="deploy-to-heroku"></a> 
 
-### Deploy `json-server` to Heroku
+## Deploy `json-server` to Heroku
 
 
 
