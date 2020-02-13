@@ -31,7 +31,7 @@ One of such tools is a `npm` package called [`json-server`](https://www.npmjs.co
 
 This repository includes the complete setup needed for deploying a `json-server` app to Heroku.
 
-Steps:
+##### Steps:
 
 1. [Fork and Clone the repository.](#fork-and-clone)
 2. [Add the custom `db.json` file.](#add-custom-db-json)
@@ -240,4 +240,4 @@ git push heroku master
 
 Once done you will be able to make the HTTP requests using the URL of your Heroku app and the endpoints created from the `db.json`. 
 
-Visit the https://dashboard.heroku.com/apps to see the newly created (and running) `json-server` app. 😊 
+Visit your Heroku dashboard by visiting https://dashboard.heroku.com/apps to see the newly created (and running) `json-server` app and the server URL. 😊 
