@@ -165,6 +165,13 @@ heroku/7.0.0 (darwin-x64) node-v8.0.0
 ```
 
 
+<br>
+
+If you didn't get the version of Heroku printed in your terminal after executing command `heroku --version` it means that you don't have the Heroku CLI installed yet on your system.
+
+In that case you should [downolad Heroku CLI here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) and install it, before the next step.
+
+
 
 <br>
 
