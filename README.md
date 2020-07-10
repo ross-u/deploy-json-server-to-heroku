@@ -153,7 +153,7 @@ If you don't have a Heroku account you should [Sign up / create Heroku account](
 
 Check if you have the Heroku CLI installed.
 
-To [verify your Heroku CLI installation](), use the `heroku --version` command:
+To [verify your Heroku CLI installation](https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version), use the `heroku --version` command:
 
 
 
