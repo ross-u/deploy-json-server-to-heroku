@@ -227,7 +227,7 @@ git remote -v
 
 #### Push to Heroku
 
-This is the final step, which pushes our local code to Heroku dyne which will instantiate the new server and run it automatically.
+This is the final step, which pushes our local code to Heroku dyno which will instantiate the new server and run it automatically.
 
 Commit all the updates and then push to heroku by running the command:
 
